@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./swiper-3.4.2.min.css">
+    <script src="./swiper-3.4.2.min.js"></script>
+    <title>Document</title>
+    <style>
+        .swiper-slide {
+            width: 100%;
+            height: 500px;
+            background: red;
+            line-height: 500px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                1
+            </div>
+            <div class="swiper-slide">
+                dksajdhashdas
+            </div>
+            <div class="swiper-slide">
+                也 i u 五月一切
+            </div>
+        </div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true,
+            
+            // 如果需要前进后退按钮
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            
+        })  
+    </script>
+</body>
+</html>
